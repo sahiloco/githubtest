@@ -1,0 +1,197 @@
+.blackIcon {
+  height: 43.8px;
+  width: 76px;
+  margin: 0 !important;
+  position: absolute;
+  top: calc(50% - 21.9px);
+  left: 299px;
+  object-fit: contain;
+}
+.friday {
+  text-decoration: none;
+  position: relative;
+  line-height: 32px;
+  font-weight: 600;
+  color: inherit;
+  display: inline-block;
+  min-width: 72px;
+}
+.fridayWrapper {
+  width: 239.5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.upTo {
+  text-decoration: none;
+  position: relative;
+  line-height: 20px;
+  font-weight: 500;
+  color: inherit;
+  display: inline-block;
+  min-width: 35px;
+}
+.upToWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.off,
+.percentSign {
+  text-decoration: none;
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+}
+.percentSign {
+  font-size: var(--display-04-size);
+  line-height: 48px;
+  color: var(--warning-500);
+  min-width: 90px;
+}
+.off {
+  line-height: 28px;
+  color: inherit;
+  min-width: 40px;
+}
+.discount,
+.offWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.offWrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  font-size: var(--body-xl-400-size);
+}
+.discount {
+  flex-direction: row;
+  gap: var(--gap-5xs-5);
+}
+.discountWrapper,
+.label {
+  font-size: var(--body-small-400-size);
+}
+.discountWrapper {
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.label {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: var(--body-small-400);
+  color: var(--gray-900);
+  text-align: left;
+  display: inline-block;
+  min-width: 80px;
+}
+.regulararrowrightIcon {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.button,
+.regulararrowrightWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-sm) 0 0;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--warning-500);
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.duotonexIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.closeButton,
+.closeButtonWrapper,
+.widget {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.closeButton {
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-800);
+  flex-direction: row;
+  padding: var(--padding-5xs);
+}
+.closeButtonWrapper,
+.widget {
+  flex-direction: column;
+  padding: var(--padding-5xs) 0 0;
+}
+.widget {
+  align-self: stretch;
+  background-color: var(--gray-900);
+  flex-direction: row;
+  justify-content: space-between;
+  padding: var(--padding-base) var(--padding-5xl) var(--padding-base)
+    var(--padding-368xl);
+  box-sizing: border-box;
+  position: relative;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--heading-03-size);
+  color: var(--gray-00);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 1525px) {
+  .widget {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1225px) {
+  .widget {
+    padding-left: var(--padding-174xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 850px) {
+  .percentSign {
+    font-size: var(--font-size-13xl);
+    line-height: 38px;
+  }
+  .widget {
+    padding-left: var(--padding-77xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .friday {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .percentSign {
+    font-size: var(--heading-03-size);
+    line-height: 29px;
+  }
+  .off {
+    font-size: var(--heading-06-size);
+    line-height: 22px;
+  }
+}

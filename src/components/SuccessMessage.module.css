@@ -1,0 +1,140 @@
+.duotonecheckcircleIcon {
+  width: 88px;
+  height: 88px;
+  position: relative;
+}
+.yourOrderIs {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: 32px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.pellentesqueSedLectus {
+  width: 424px;
+  position: relative;
+  font-size: var(--body-small-400-size);
+  line-height: 20px;
+  color: var(--gray-600);
+  display: inline-block;
+  max-width: 100%;
+}
+.content,
+.yourOrderIsSuccessfullyPlaParent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.yourOrderIsSuccessfullyPlaParent {
+  width: 1320px;
+  gap: var(--gap-xs);
+}
+.content {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+}
+.regularstackIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.label {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+.button1 {
+  border-radius: var(--br-11xs);
+  border: 2px solid var(--primary-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-3xl);
+  gap: var(--gap-5xs);
+  cursor: pointer;
+}
+.label1 {
+  position: relative;
+  font-size: var(--body-small-400-size);
+  letter-spacing: 0.01em;
+  line-height: 48px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: var(--body-small-400);
+  color: var(--gray-00);
+  text-align: left;
+  min-width: 91px;
+}
+.regulararrowrightIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+}
+.button,
+.button2,
+.successMessage {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0 var(--padding-5xl);
+  background-color: var(--primary-500);
+  border-radius: var(--br-11xs);
+  gap: var(--gap-5xs);
+  white-space: nowrap;
+}
+.button2:hover {
+  background-color: var(--color-chocolate-100);
+}
+.button,
+.successMessage {
+  align-self: stretch;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xs);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--primary-500);
+}
+.successMessage {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-105xl) 0;
+  box-sizing: border-box;
+  gap: var(--gap-13xl);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--heading-03-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 850px) {
+  .successMessage {
+    gap: var(--gap-base);
+    padding-top: var(--padding-62xl);
+    padding-bottom: var(--padding-62xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourOrderIs {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .button {
+    flex-wrap: wrap;
+  }
+}

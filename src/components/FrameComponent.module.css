@@ -1,0 +1,51 @@
+.size {
+  align-self: stretch;
+}
+.goodMorning,
+.size {
+  position: relative;
+  line-height: 20px;
+}
+.regularcaretdownIcon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+}
+.colorCaret,
+.dropdown,
+.sizeParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.colorCaret {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.dropdown,
+.sizeParent {
+  align-self: stretch;
+}
+.dropdown {
+  border-radius: var(--br-11xs);
+  background-color: var(--gray-00);
+  border: 1px solid var(--gray-100);
+  overflow: hidden;
+  flex-direction: row;
+  padding: var(--padding-3xs) var(--padding-mini);
+  gap: var(--gap-27xl);
+  color: var(--gray-700);
+}
+.sizeParent {
+  flex-direction: column;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--body-small-400-size);
+  color: var(--gray-900);
+  font-family: var(--body-small-400);
+}
+@media screen and (max-width: 450px) {
+  .dropdown {
+    gap: var(--gap-4xl);
+  }
+}
